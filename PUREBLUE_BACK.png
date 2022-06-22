@@ -1,0 +1,73 @@
+e
+WIA: 3508.3736 157245734 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Processing control request (control: 4, event type: 0)...
+WIA: 3508.3736 157245734 2 0 [wiaservc.dll] Dispatcher::ProcessEvent, System event received: dwControl 4, dwEventType 0, lpEventData: 0x0000000000000000
+WIA: 3508.3736 157245734 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event, control code 4, event type 0..
+WIA: 3508.3736 157245734 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event control code 4, event type 0, completed with with hr 0x00000000
+WIA: 3508.3736 157245734 2 0 [wiaservc.dll] ServiceEventHandler::ProcessEvent, The ServiceEventHandler received a SERVICE_CONTROL_INTERROGATE and may update the service status for interrogation
+WIA: 3508.3736 157245734 80000000 0 [wiaservc.dll] WiaService::CheckForActivityAndShutdown, Not shutting down service because 1 devices are installed
+WIA: 3508.3736 157245734 0 0 [wiaservc.dll] SCMControlQueue::ControlRequest::~ControlRequest, Control request (control: 4, event type: 0) deleted
+WIA: 3508.3736 157245734 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Requests queue empty, control thread entering sleep...
+WIA: 3508.3512 157251625 0 0 [wiaservc.dll] SCMControlQueue::Push, Adding control request to queue (control: 4, event type: 0)
+WIA: 3508.3512 157251625 0 0 [wiaservc.dll] SCMControlHandler::ControlFunction, Signaling control thread to resume...
+WIA: 3508.3736 157251625 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Resuming control thread...
+WIA: 3508.3736 157251625 0 0 [wiaservc.dll] SCMControlQueue::Pop, Control request (control: 4, event type: 0) detached from queue
+WIA: 3508.3736 157251625 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Processing control request (control: 4, event type: 0)...
+WIA: 3508.3736 157251625 2 0 [wiaservc.dll] Dispatcher::ProcessEvent, System event received: dwControl 4, dwEventType 0, lpEventData: 0x0000000000000000
+WIA: 3508.3736 157251625 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event, control code 4, event type 0..
+WIA: 3508.3736 157251625 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event control code 4, event type 0, completed with with hr 0x00000000
+WIA: 3508.3736 157251625 2 0 [wiaservc.dll] ServiceEventHandler::ProcessEvent, The ServiceEventHandler received a SERVICE_CONTROL_INTERROGATE and may update the service status for interrogation
+WIA: 3508.3736 157251640 80000000 0 [wiaservc.dll] WiaService::CheckForActivityAndShutdown, Not shutting down service because 1 devices are installed
+WIA: 3508.3736 157251640 0 0 [wiaservc.dll] SCMControlQueue::ControlRequest::~ControlRequest, Control request (control: 4, event type: 0) deleted
+WIA: 3508.3512 157251640 0 0 [wiaservc.dll] SCMControlHandler::ControlFunction, Control function (control: 4, event type: 0) returning
+WIA: 3508.3736 157251640 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Requests queue empty, control thread entering sleep...
+WIA: 3508.3512 157251640 0 0 [wiaservc.dll] SCMControlQueue::Push, Adding control request to queue (control: 4, event type: 0)
+WIA: 3508.3512 157251640 0 0 [wiaservc.dll] SCMControlHandler::ControlFunction, Signaling control thread to resume...
+WIA: 3508.3512 157251640 0 0 [wiaservc.dll] SCMControlHandler::ControlFunction, Control function (control: 4, event type: 0) returning
+WIA: 3508.3736 157251640 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Resuming control thread...
+WIA: 3508.3736 157251640 0 0 [wiaservc.dll] SCMControlQueue::Pop, Control request (control: 4, event type: 0) detached from queue
+WIA: 3508.3736 157251640 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Processing control request (control: 4, event type: 0)...
+WIA: 3508.3736 157251640 2 0 [wiaservc.dll] Dispatcher::ProcessEvent, System event received: dwControl 4, dwEventType 0, lpEventData: 0x0000000000000000
+WIA: 3508.3736 157251640 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event, control code 4, event type 0..
+WIA: 3508.3736 157251640 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event control code 4, event type 0, completed with with hr 0x00000000
+WIA: 3508.3736 157251640 2 0 [wiaservc.dll] ServiceEventHandler::ProcessEvent, The ServiceEventHandler received a SERVICE_CONTROL_INTERROGATE and may update the service status for interrogation
+WIA: 3508.3736 157251640 80000000 0 [wiaservc.dll] WiaService::CheckForActivityAndShutdown, Not shutting down service because 1 devices are installed
+WIA: 3508.3736 157251640 0 0 [wiaservc.dll] SCMControlQueue::ControlRequest::~ControlRequest, Control request (control: 4, event type: 0) deleted
+WIA: 3508.3736 157251640 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Requests queue empty, control thread entering sleep...
+WIA: 3508.3512 157251734 0 0 [wiaservc.dll] SCMControlQueue::Push, Adding control request to queue (control: 4, event type: 0)
+WIA: 3508.3512 157251734 0 0 [wiaservc.dll] SCMControlHandler::ControlFunction, Signaling control thread to resume...
+WIA: 3508.3736 157251734 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Resuming control thread...
+WIA: 3508.3736 157251734 0 0 [wiaservc.dll] SCMControlQueue::Pop, Control request (control: 4, event type: 0) detached from queue
+WIA: 3508.3736 157251734 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Processing control request (control: 4, event type: 0)...
+WIA: 3508.3512 157251734 0 0 [wiaservc.dll] SCMControlHandler::ControlFunction, Control function (control: 4, event type: 0) returning
+WIA: 3508.3736 157251734 2 0 [wiaservc.dll] Dispatcher::ProcessEvent, System event received: dwControl 4, dwEventType 0, lpEventData: 0x0000000000000000
+WIA: 3508.3736 157251734 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event, control code 4, event type 0..
+WIA: 3508.3736 157251734 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event control code 4, event type 0, completed with with hr 0x00000000
+WIA: 3508.3736 157251734 2 0 [wiaservc.dll] ServiceEventHandler::ProcessEvent, The ServiceEventHandler received a SERVICE_CONTROL_INTERROGATE and may update the service status for interrogation
+WIA: 3508.3736 157251734 80000000 0 [wiaservc.dll] WiaService::CheckForActivityAndShutdown, Not shutting down service because 1 devices are installed
+WIA: 3508.3736 157251734 0 0 [wiaservc.dll] SCMControlQueue::ControlRequest::~ControlRequest, Control request (control: 4, event type: 0) deleted
+WIA: 3508.3736 157251734 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Requests queue empty, control thread entering sleep...
+WIA: 3508.3512 157257875 0 0 [wiaservc.dll] SCMControlQueue::Push, Adding control request to queue (control: 4, event type: 0)
+WIA: 3508.3512 157257875 0 0 [wiaservc.dll] SCMControlHandler::ControlFunction, Signaling control thread to resume...
+WIA: 3508.3736 157257875 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Resuming control thread...
+WIA: 3508.3736 157257875 0 0 [wiaservc.dll] SCMControlQueue::Pop, Control request (control: 4, event type: 0) detached from queue
+WIA: 3508.3736 157257875 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Processing control request (control: 4, event type: 0)...
+WIA: 3508.3736 157257890 2 0 [wiaservc.dll] Dispatcher::ProcessEvent, System event received: dwControl 4, dwEventType 0, lpEventData: 0x0000000000000000
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event, control code 4, event type 0..
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event control code 4, event type 0, completed with with hr 0x00000000
+WIA: 3508.3736 157257890 2 0 [wiaservc.dll] ServiceEventHandler::ProcessEvent, The ServiceEventHandler received a SERVICE_CONTROL_INTERROGATE and may update the service status for interrogation
+WIA: 3508.3736 157257890 80000000 0 [wiaservc.dll] WiaService::CheckForActivityAndShutdown, Not shutting down service because 1 devices are installed
+WIA: 3508.3512 157257890 0 0 [wiaservc.dll] SCMControlHandler::ControlFunction, Control function (control: 4, event type: 0) returning
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] SCMControlQueue::ControlRequest::~ControlRequest, Control request (control: 4, event type: 0) deleted
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Requests queue empty, control thread entering sleep...
+WIA: 3508.3512 157257890 0 0 [wiaservc.dll] SCMControlQueue::Push, Adding control request to queue (control: 4, event type: 0)
+WIA: 3508.3512 157257890 0 0 [wiaservc.dll] SCMControlHandler::ControlFunction, Signaling control thread to resume...
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Resuming control thread...
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] SCMControlQueue::Pop, Control request (control: 4, event type: 0) detached from queue
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] SCMControlHandler::ControlThread, Processing control request (control: 4, event type: 0)...
+WIA: 3508.3736 157257890 2 0 [wiaservc.dll] Dispatcher::ProcessEvent, System event received: dwControl 4, dwEventType 0, lpEventData: 0x0000000000000000
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event, control code 4, event type 0..
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] DeviceClassEnumeratorHandler::ProcessEvent, Processing system event control code 4, event type 0, completed with with hr 0x00000000
+WIA: 3508.3736 157257890 2 0 [wiaservc.dll] ServiceEventHandler::ProcessEvent, The ServiceEventHandler received a SERVICE_CONTROL_INTERROGATE and may update the service status for interrogation
+WIA: 3508.3736 157257890 80000000 0 [wiaservc.dll] WiaService::CheckForActivityAndShutdown, Not shutting down service because 1 devices are installed
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] SCMControlQueue::ControlRequest::~ControlRequest, Control request (control: 4, event type: 0) deleted
+WIA: 3508.3736 157257890 0 0 [wiaservc.dll] SCMControlHandler
