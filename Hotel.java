@@ -4283,7 +4283,7 @@ class MainHotelFrame extends JFrame implements ActionListener, ItemListener
 		else
 		{
 			Statement s=conn.createStatement();
-			ResultSet rs=s.executeQuery("select user_id from Admin_Details");
+			ResultSet rs=s.executeQuery("select userid from Admin_Details");
 			int flg=0;
 			while(rs.next())
 			{
@@ -4329,6 +4329,7 @@ class MainHotelFrame extends JFrame implements ActionListener, ItemListener
 		}
 		}catch(Exception ee)
 		{
+			ee.printStackTrace();
 			login.setText("Error!");
 		}
 	}
@@ -4381,7 +4382,7 @@ class MainHotelFrame extends JFrame implements ActionListener, ItemListener
 		String typedPassword = password.getText ();
 		try
 		{
-			PreparedStatement ps = conn.prepareStatement ("select user_id, password from Admin_Details");
+			PreparedStatement ps = conn.prepareStatement ("select userid, password from Admin_Details");
 			ResultSet rs = ps.executeQuery ();
 			while (rs.next ())
 			{
@@ -5693,7 +5694,7 @@ class MainHotelFrame extends JFrame implements ActionListener, ItemListener
 		String enteredUserId = userIdRecover.getText ();
 		try
 		{
-			PreparedStatement ps = conn.prepareStatement ("select user_id from Admin_Details");
+			PreparedStatement ps = conn.prepareStatement ("select userid from Admin_Details");
 			ResultSet rs = ps.executeQuery ();
 			int flag = 0;
 			while (rs.next ())
@@ -5809,7 +5810,7 @@ class MainHotelFrame extends JFrame implements ActionListener, ItemListener
 			recoveryWarn.setText ("");
 			try
 			{
-				PreparedStatement ps = conn.prepareStatement ("update Admin_Details set password= ? where user_id= ?");
+				PreparedStatement ps = conn.prepareStatement ("update Admin_Details set password= ? where userid= ?");
 				ps.setString (1,newPasswordStr);
 				ps.setString (2,correctOldId);
 				int status = ps.executeUpdate ();
